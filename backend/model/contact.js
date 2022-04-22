@@ -4,7 +4,7 @@ const{isEmail} =require('validator')
 
 const ContactSchema = new mongoose.Schema(
     {
-        
+       
         first_name:{
             type:String,
             required:[true,"Name must be provided"]
