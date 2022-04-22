@@ -1,0 +1,27 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayeshuttam/Contacts.git"
+  },
+  "author": "jayesh uttam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jayeshuttam/Contacts/issues"
+  },
+  "homepage": "https://github.com/Jayeshuttam/Contacts#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.3.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
