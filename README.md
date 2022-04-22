@@ -29,15 +29,18 @@ I have implemented the following functinality in the backend search.
     use whatever you like 
 6.Search for particular fields like first name,last namefrom all the fields
     http:localhost:5000/?fields=first_name
+![gett all users](https://user-images.githubusercontent.com/38659267/164782760-ab45952a-45ab-4f58-8be5-9f753904363e.png)
 
 
 updating:
     router.route('/').put(updateContacts)
     It takes one paramater that is email to find and update the particular field.
+![updating](https://user-images.githubusercontent.com/38659267/164782773-df90ac22-0a77-433d-b2f9-3bb65bef452a.png)
 
 Create Task
 router.route('/').post(createContact)
     It creates the contact in the database where email and phone must be unique.
+![creating contact](https://user-images.githubusercontent.com/38659267/164782782-19450365-ae40-4be5-90b4-ff566a286f64.png)
 
 deleting
-same as updation it takes email as parameter to find and delete the contact
+same as updation it takes email as parameter to find and delete the contact![deleting user](https://user-images.githubusercontent.com/38659267/164782789-578d8aa2-afea-465e-bd7b-54762a22eb5e.png)
