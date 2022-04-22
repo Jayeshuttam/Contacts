@@ -9,6 +9,11 @@ All routes are
     http:localhost:5000/
 these are associated with GET,POST,PUT,DELETE  method
 
+To execute 
+1.execute npm install inside backend to install all the libraries
+2.execute node index.js
+
+All the testing is done on PostMan agent
 Get all contacts:
 router.route('/').get(getAllContacts)
 It will be responsible for fetching all the users from database .
