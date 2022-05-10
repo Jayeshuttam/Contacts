@@ -15,7 +15,7 @@ app.use('',routes)
 
 
 
-MONGO_URI = 'mongodb+srv://jayesh:jayesh@cluster0.ri3a2.mongodb.net/ContactsApp?retryWrites=true&w=majority'
+MONGO_URI = 'mongodb+srv://jayesh:<password>@cluster0.ri3a2.mongodb.net/ContactsApp?retryWrites=true&w=majority'
 PORT = 5000
 //starting server
 const start=async()=>{
